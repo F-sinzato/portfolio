@@ -1,0 +1,30 @@
+header.menu-area {
+    background: var(--bg-dark);
+    padding: 0px 15px;
+    overflow: hidden;
+    white-space: wrap;
+    box-shadow: var(--shadow);
+}
+
+.img-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header.menu-area h1 {
+    font-size: 1.8am;
+    color: #f5f5f5;
+}
+header.menu-area p {
+    color: var(--white);
+}
